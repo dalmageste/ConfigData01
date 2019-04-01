@@ -2,7 +2,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-words: a,b,c,d,e  
 ---
 spring:
   profiles: subject
