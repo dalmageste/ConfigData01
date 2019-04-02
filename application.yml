@@ -2,37 +2,28 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+ 
 ---
 spring:
   profiles: subject
-server:
-  port: 8014
 words: I,You,He,She,It
 
 ---
 spring:
   profiles: verb
-server:
-  port: 8015
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: article
-server:
-  port: 8012
 words: a,the
 
 ---
 spring:
   profiles: adjective
-server:
-  port: 8011
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: noun
-server:
-  port:8013
 words: boat,book,vote,seat,backpack,partition,groundhog  
